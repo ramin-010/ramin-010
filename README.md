@@ -1,16 +1,49 @@
-## Hi there 👋
+# Hey, I’m Ramin 👋
 
-<!--
-**ramin-010/ramin-010** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build **developer tools, backend systems, and workflows**
+that remove friction from real-world products.
 
-Here are some ideas to get you started:
+Currently focused on:
+- VS Code extensions
+- Image optimization & cloud pipelines
+- File handling & backend infrastructure
+- Developer experience (DX)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ What I’m building
+
+### ⚡ Upfly
+> Image optimization & cloud upload tooling  
+- Auto convert images to WebP / AVIF  
+- Cloudinary, S3, GCS support  
+- VS Code extension + npm ecosystem  
+
+🔗 Repo: https://github.com/ramin-010/upfly  
+🔗 VS Code Extension: *(link it)*
+
+---
+
+### 🧠 ReCollect
+> A system for capturing, connecting, and revisiting ideas  
+- Backend-first design  
+- Built for clarity & long-term thinking  
+
+🔗 Repo: https://github.com/ramin-010/ReCollect
+
+---
+
+## 🧩 Philosophy
+
+I like building:
+- Tools developers *actually use*
+- Systems that scale quietly
+- Code that reduces cognitive load
+
+Less hype. More shipping.
+
+---
+
+## 📬 Connect
+- GitHub: https://github.com/ramin-010
+- Email: raminchoudhary737@gmail.com
