@@ -15,7 +15,8 @@ Bugs I found by reading the source, reproduced with a failing test, and fixed.
 | [fastmcp](https://github.com/punkpeye/fastmcp) | [#369](https://github.com/punkpeye/fastmcp/pull/369) — the documented ping default for HTTP streaming never applied, because it keyed off a field no transport sets | Open |
 | [sharp](https://github.com/lovell/sharp) | [#4602](https://github.com/lovell/sharp/pull/4602) — `JxlOptions` did not declare the animation options `jxl()` actually accepts | Open |
 | [ioredis](https://github.com/redis/ioredis) | [#2187](https://github.com/redis/ioredis/pull/2187) — a failed auto-resubscribe after reconnect became an unhandled rejection, ending the process even with an error handler registered | Open |
-| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1155](https://github.com/ueberdosis/hocuspocus/pull/1155) · [#1157](https://github.com/ueberdosis/hocuspocus/pull/1157) — a document was re-encoded and applied to itself on every load, and leaked when the load hook threw | Open |
+| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1155](https://github.com/ueberdosis/hocuspocus/pull/1155) — an `onLoadDocument` hook returning the document it was handed made the server encode the whole document and apply it back to itself, on the first connection to every document | Merged |
+| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1157](https://github.com/ueberdosis/hocuspocus/pull/1157) — a document created for a load that threw was never destroyed, leaking a `Y.Doc` and an Awareness timer per rejected connection | Merged |
 
 ## Things I've built
 
