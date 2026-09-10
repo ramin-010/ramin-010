@@ -39,4 +39,4 @@ WebSockets · Yjs · Sharp · AWS S3 · Cloudinary · GCS
 
 B.Tech CSE, Rayat Bahra University, 2026.
 
-Reach me at rinkalkumar737@gmail.com · [LinkedIn](https://linkedin.com/in/rinkalkumar) · [npm](https://www.npmjs.com/~ramin-010)
+Reach me at rinkalkumar737@gmail.com · [LinkedIn](https://www.linkedin.com/in/rinkal-kumar-46130a329/) · [npm](https://www.npmjs.com/~ramin-010)
