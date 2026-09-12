@@ -3,7 +3,7 @@
 Backend and developer-tooling work in Node and TypeScript. I like the unglamorous parts — streams,
 file pipelines, protocol edge cases, the bug that only shows up on the third reconnect.
 
-Full-stack developer at I-3 Integrated Co., Chandigarh.
+SDE 1 at I-3 Integrated Co., Chandigarh.
 
 ## Open-source contributions
 
