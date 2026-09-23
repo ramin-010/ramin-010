@@ -7,19 +7,19 @@ SDE 1 at I-3 Integrated Co., Chandigarh.
 
 ## Open-source contributions
 
-Eight merged pull requests across four projects. Every one came from reading the source rather than
-an issue list, and shipped with a test that failed before the fix.
+All eight merged. Every one came from reading the source rather than an issue list, and shipped with a
+test that failed before the fix.
 
-| Project | Contribution | Status |
+| Project | Contribution | Released |
 |---|---|---|
-| [sharp](https://github.com/lovell/sharp) | [#4602](https://github.com/lovell/sharp/pull/4602) — `JxlOptions` did not declare the animation options `jxl()` actually accepts, so valid calls failed to typecheck | Merged |
-| [ioredis](https://github.com/redis/ioredis) | [#2187](https://github.com/redis/ioredis/pull/2187) — a failed auto-resubscribe after reconnect became an unhandled rejection, ending the process even with an error handler registered | Merged |
-| [ioredis](https://github.com/redis/ioredis) | [#2194](https://github.com/redis/ioredis/pull/2194) — with `autoResendUnfulfilledCommands: false`, a command in flight when the connection dropped was never settled: the promise hung forever, and `disconnect()` could not settle it either | Merged |
-| [ioredis](https://github.com/redis/ioredis) | [#2191](https://github.com/redis/ioredis/pull/2191) — sharded pub/sub emits `smessage` and `smessageBuffer`, but neither was typed on `on`/`once`, so both handler parameters fell through to `any` | Merged |
-| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1155](https://github.com/ueberdosis/hocuspocus/pull/1155) — an `onLoadDocument` hook returning the document it was handed made the server encode the whole document and apply it back to itself, on the first connection to every document | Merged |
-| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1157](https://github.com/ueberdosis/hocuspocus/pull/1157) — a document created for a load that threw was never destroyed, leaking a `Y.Doc` and an Awareness timer per rejected connection | Merged |
-| [fastmcp](https://github.com/punkpeye/fastmcp) | [#366](https://github.com/punkpeye/fastmcp/pull/366) — `embedded()` silently dropped resource contents when a template's `load()` returned an array, producing a response that failed MCP schema validation | Merged, shipped in v4.20.9 |
-| [fastmcp](https://github.com/punkpeye/fastmcp) | [#369](https://github.com/punkpeye/fastmcp/pull/369) — the documented ping default for HTTP streaming never applied, because it keyed off a field no transport sets | Merged, shipped in v4.20.10 |
+| [sharp](https://github.com/lovell/sharp) | [#4602](https://github.com/lovell/sharp/pull/4602) — `JxlOptions` did not declare the animation options `jxl()` actually accepts, so valid calls failed to typecheck | in `v0.35.5-rc.0` |
+| [ioredis](https://github.com/redis/ioredis) | [#2194](https://github.com/redis/ioredis/pull/2194) — with `autoResendUnfulfilledCommands: false`, a command in flight when the connection dropped was never settled. The promise hung forever, and `disconnect()` could not settle it either | |
+| [ioredis](https://github.com/redis/ioredis) | [#2187](https://github.com/redis/ioredis/pull/2187) — a failed auto-resubscribe after reconnect became an unhandled rejection, ending the process even with an error handler registered | |
+| [ioredis](https://github.com/redis/ioredis) | [#2191](https://github.com/redis/ioredis/pull/2191) — sharded pub/sub emits `smessage` and `smessageBuffer`, but neither was typed on `on`/`once`, so both handler parameters fell through to `any` | |
+| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1157](https://github.com/ueberdosis/hocuspocus/pull/1157) — a document created for a load that threw was never destroyed, leaking a `Y.Doc` and an Awareness timer per rejected connection | |
+| [hocuspocus](https://github.com/ueberdosis/hocuspocus) | [#1155](https://github.com/ueberdosis/hocuspocus/pull/1155) — an `onLoadDocument` hook returning the document it was handed made the server encode the whole document and apply it back to itself, on every document's first connection | |
+| [fastmcp](https://github.com/punkpeye/fastmcp) | [#366](https://github.com/punkpeye/fastmcp/pull/366) — `embedded()` silently dropped resource contents when a template's `load()` returned an array, producing a response that failed MCP schema validation | `v4.20.9` |
+| [fastmcp](https://github.com/punkpeye/fastmcp) | [#369](https://github.com/punkpeye/fastmcp/pull/369) — the documented ping default for HTTP streaming never applied, because it keyed off a field no transport sets | `v4.20.10` |
 
 ## Things I've built
 
