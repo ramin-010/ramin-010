@@ -1,9 +1,15 @@
 # Rinkal Kumar (Ramin)
 
+[![Email](https://img.shields.io/badge/Email-rinkalkumar737%40gmail.com-555?style=flat-square&logo=gmail&logoColor=white)](mailto:rinkalkumar737@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rinkal%20Kumar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rinkal-kumar-46130a329/)
+[![npm](https://img.shields.io/badge/npm-ramin010-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~ramin010)
+
 Backend and developer-tooling work in Node and TypeScript. I like the unglamorous parts — streams,
 file pipelines, protocol edge cases, the bug that only shows up on the third reconnect.
 
-SDE 1 at I-3 Integrated Co., Chandigarh.
+SDE 1 at I-3 Integrated Co., Chandigarh. **8 merged PRs** in sharp, ioredis, hocuspocus and fastmcp.
+
+**Currently:** building Upfly v3, which optimizes a repository's images without breaking a single reference.
 
 ## Open-source contributions
 
@@ -30,6 +36,9 @@ with a fallback stream that preserves the original if the transform fails. Publi
 **[Upfly for VS Code](https://github.com/ramin-010/VS-Code-Extension-Upfly-)** — drop an image into a
 watched folder and it converts, uploads, and returns a CDN URL. File-stability polling, loop
 prevention and a git-tracked-file guard, because the naive version corrupts half-written files.
+1,700+ downloads on [Open VSX](https://open-vsx.org/extension/ramin/upfly-vscode).
+
+[![Open VSX downloads](https://img.shields.io/open-vsx/dt/ramin/upfly-vscode?style=flat-square&label=Open%20VSX%20downloads)](https://open-vsx.org/extension/ramin/upfly-vscode)
 
 **[ReCollect](https://github.com/ramin-010/ReCollect)** — a collaborative workspace built on Yjs CRDTs
 with a custom Hocuspocus WebSocket server, plus multi-model AI routing across Gemini, OpenAI, Groq and
@@ -42,5 +51,3 @@ TypeScript · JavaScript · Node · Express · Next.js · React · PostgreSQL ·
 WebSockets · Yjs · Sharp · AWS S3 · Cloudinary · GCS
 
 B.Tech CSE, Rayat Bahra University, 2026.
-
-Reach me at rinkalkumar737@gmail.com · [LinkedIn](https://www.linkedin.com/in/rinkal-kumar-46130a329/) · [npm](https://www.npmjs.com/~ramin-010)
