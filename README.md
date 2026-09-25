@@ -2,14 +2,14 @@
 
 [![Email](https://img.shields.io/badge/Email-rinkalkumar737%40gmail.com-555?style=flat-square&logo=gmail&logoColor=white)](mailto:rinkalkumar737@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rinkal%20Kumar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rinkal-kumar-46130a329/)
-[![npm](https://img.shields.io/badge/npm-ramin--010-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~ramin-010)
+[![npm](https://img.shields.io/badge/npm-ramin010-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~ramin010)
 
 Backend and developer-tooling work in Node and TypeScript. I like the unglamorous parts — streams,
 file pipelines, protocol edge cases, the bug that only shows up on the third reconnect.
 
 SDE 1 at I-3 Integrated Co., Chandigarh. **8 merged PRs** in sharp, ioredis, hocuspocus and fastmcp.
 
-**Currently:** working on Upfly v2 and looking for the next open-source bug worth fixing.
+**Currently:** building Upfly v3, which optimizes a repository's images without breaking a single reference.
 
 ## Open-source contributions
 
@@ -33,10 +33,6 @@ an issue list, and shipped with a test that failed before the fix.
 A custom Multer storage engine that streams uploads through Sharp and on to S3, GCS or Cloudinary,
 with a fallback stream that preserves the original if the transform fails. Published on npm.
 
-[![npm version](https://img.shields.io/npm/v/upfly?style=flat-square)](https://www.npmjs.com/package/upfly)
-[![npm downloads](https://img.shields.io/npm/dm/upfly?style=flat-square)](https://www.npmjs.com/package/upfly)
-[![stars](https://img.shields.io/github/stars/ramin-010/upfly?style=flat-square)](https://github.com/ramin-010/upfly)
-
 **[Upfly for VS Code](https://github.com/ramin-010/VS-Code-Extension-Upfly-)** — drop an image into a
 watched folder and it converts, uploads, and returns a CDN URL. File-stability polling, loop
 prevention and a git-tracked-file guard, because the naive version corrupts half-written files.
@@ -48,8 +44,6 @@ prevention and a git-tracked-file guard, because the naive version corrupts half
 with a custom Hocuspocus WebSocket server, plus multi-model AI routing across Gemini, OpenAI, Groq and
 Cohere. The most technically involved thing I've built, and where most of my Redis, BullMQ and
 WebSocket experience comes from.
-
-[![stars](https://img.shields.io/github/stars/ramin-010/ReCollect?style=flat-square)](https://github.com/ramin-010/ReCollect)
 
 ## Stack
 
