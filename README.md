@@ -40,6 +40,9 @@ with a fallback stream that preserves the original if the transform fails. Publi
 **[Upfly for VS Code](https://github.com/ramin-010/VS-Code-Extension-Upfly-)** — drop an image into a
 watched folder and it converts, uploads, and returns a CDN URL. File-stability polling, loop
 prevention and a git-tracked-file guard, because the naive version corrupts half-written files.
+1,700+ downloads on [Open VSX](https://open-vsx.org/extension/ramin/upfly-vscode).
+
+[![Open VSX downloads](https://img.shields.io/open-vsx/dt/ramin/upfly-vscode?style=flat-square&label=Open%20VSX%20downloads)](https://open-vsx.org/extension/ramin/upfly-vscode)
 
 **[ReCollect](https://github.com/ramin-010/ReCollect)** — a collaborative workspace built on Yjs CRDTs
 with a custom Hocuspocus WebSocket server, plus multi-model AI routing across Gemini, OpenAI, Groq and
